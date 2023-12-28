@@ -6,7 +6,7 @@
  <br><br>
   <H3>Summary</H3>
    The components of the app are:
-   <p>-MainActivity: displays words in a list using a RecyclerView and the WordListAdapter. In MainActivity, there is an Observer that observes the words LiveData from the database and is notified when they change.
+   <p>- MainActivity: displays words in a list using a RecyclerView and the WordListAdapter. In MainActivity, there is an Observer that observes the words LiveData from the database and is notified when they change.
     - NewWordActivity: adds a new word to the list. <br>
     - WordViewModel: provides methods for accessing the data layer, and it returns LiveData so that MainActivity can set up the observer relationship. <br>
     - LiveData<List<Word>>: Makes possible the automatic updates in the UI components. In the MainActivity, there is an Observer that observes the words LiveData from the database and is notified when they change.<br>
